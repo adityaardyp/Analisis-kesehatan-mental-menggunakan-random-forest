@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # Memuat dataset
-df = pd.read_csv("C:/Pdm/SaYoPillow.csv")
+df = pd.read_csv("SaYoPillow.csv")
 
 # Mengganti nama kolom
 df.rename(columns={
